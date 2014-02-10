@@ -9,7 +9,7 @@
 #include <stdio.h>
 #include "string.h"
 
-print(FILE inFile, FILE outFile)
+void print(FILE inFile, FILE outFile)
 {
     while (fgets(string, 16, inFile) != NULL)
     {
