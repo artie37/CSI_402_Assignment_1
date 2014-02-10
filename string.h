@@ -6,9 +6,4 @@
 //  Copyright (c) 2014 Arthur Knapp. All rights reserved.
 //
 
-#ifndef Assignment_1_string_h
-#define Assignment_1_string_h
-
-
-
-#endif
+char string[16];
