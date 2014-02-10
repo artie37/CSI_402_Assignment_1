@@ -1,11 +1,10 @@
 #include <stdio.h>
+#include "prototypes.h"
 
 int main(int argc, const char * argv[])
 {
     FILE *inFile;
     FILE *outFile;
-    
-    char string[16];
     
     if (argc != 3)
     /*
@@ -38,10 +37,12 @@ int main(int argc, const char * argv[])
         exit(1);
     }
     
-    while (fgets(string, 16, inFile) != NULL)
-    {
-        fprintf(outFile, "%s", string);
-    }
+    
+//    print(inFile, outFile);
+//    while (fgets(string, 16, inFile) != NULL)
+//    {
+//        fprintf(outFile, "%s", string);
+//    }
     
     fclose(inFile);
 }
