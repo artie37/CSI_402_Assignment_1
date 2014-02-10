@@ -45,6 +45,7 @@ int main(int argc, const char * argv[])
 //    }
     
     fclose(inFile);
+    fclose(outFile);
 }
 
  
